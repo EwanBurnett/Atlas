@@ -1,5 +1,4 @@
-
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required (VERSION 3.21.3)
 
 project(Atlas)
 
@@ -12,14 +11,12 @@ include_directories(Atlas/Interface/inc)
 
 set(OUT_DIR "${CMAKE_BINARY_DIR}/bin/")
 
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${OUT_DIR}) 
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${OUT_DIR}) 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${OUT_DIR}) 
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${OUT_DIR}/lib/") 
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${OUT_DIR}/shared/") 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${OUT_DIR}/") 
 
-add_subdirectory(Atlas/Framework/)
-#add_subdirectory(Atlas/Interface/)
-#add_subdirectory(Atlas/Editor/)
-add_subdirectory(Examples//)
+add_subdirectory(Atlas/)
+add_subdirectory(Examples/)
 
 
 

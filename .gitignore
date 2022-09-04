@@ -31,5 +31,11 @@
 *.out
 *.app
 
+# Temporary Files
+*.old
+
 # Visual Studio Generated Files
-/.vs/
+.vs/
+
+# build files
+[Bb][Uu][Ii][Ll][Dd]

@@ -9,7 +9,7 @@
 
 #endif
 
-#include <Atlas/Atlas.h>
+#include <Atlas.h>
 
 #define DLLEXPORT
 
