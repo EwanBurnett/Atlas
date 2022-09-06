@@ -1,0 +1,15 @@
+[submodule "External/OpenAL-Soft"]
+	path = External/OpenAL-Soft
+	url = https://github.com/kcat/openal-soft
+[submodule "External/lua"]
+	path = External/lua
+	url = https://github.com/lua/lua
+[submodule "External/ASSIMP"]
+	path = External/ASSIMP
+	url = https://github.com/assimp/assimp
+[submodule "External/TinyXML2"]
+	path = External/TinyXML2
+	url = https://github.com/leethomason/tinyxml2
+[submodule "External/GLFW"]
+	path = External/GLFW
+	url = https://github.com/glfw/glfw
