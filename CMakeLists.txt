@@ -6,6 +6,8 @@ set (CMAKE_CXX_STANDARD 20)
 
 #Clone all git submodules into /External/
 
+INCLUDE_EXTERNAL_MSPROJECT(Atlas-Editor "${PROJECT_SOURCE_DIR}/Atlas/Editor/Atlas-Editor.csproj")
+
 include_directories(Atlas/Framework/inc)
 include_directories(Atlas/Interface/inc)
 
