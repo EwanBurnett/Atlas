@@ -38,4 +38,9 @@
 .vs/
 
 # build files
-[Bb][Uu][Ii][Ll][Dd]
+[Bb][Uu][Ii][Ll][Dd]/
+[Bb][Ii][Nn]/
+
+# Generated Documentation Files
+[Dd][Oo][Cc][Ss]/[Hh][Tt][Mm][Ll]/
+[Dd][Oo][Cc][Ss]/[Ll][Aa][Tt][Ee][Xx]/

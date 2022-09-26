@@ -7,6 +7,8 @@
     <TrimMode>copyused</TrimMode>
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     <StartupObject>Atlas_Editor.Program</StartupObject>
+    <BaseOutputPath>..\..\bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>..\..\bin\Intermediates\</BaseIntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <None Remove=".gitignore" />
